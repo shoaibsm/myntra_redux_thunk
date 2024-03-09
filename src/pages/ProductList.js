@@ -4,6 +4,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { fetchData } from '../redux/slices/ProductSlice';
 import SingleProduct from '../components/SingleProduct';
 import { Alert, Flex, Spin } from 'antd';
+import ProductFilter from '../components/productFilter/ProductFilter';
 <Alert message="Error" type="error" showIcon />
 
 function ProductList() {
