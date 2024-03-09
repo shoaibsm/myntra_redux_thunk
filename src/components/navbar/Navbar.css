@@ -1,0 +1,98 @@
+.Navbar {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    column-gap: 16px;
+    padding: 8px 16px;
+    position: sticky;
+    top: 0;
+    background-color: #ffffff;
+}
+
+.brand {
+    margin-left: 40px;
+}
+
+.brnad-logo {
+    width: 50px;
+}
+
+.nav-container {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    align-items: stretch;
+    margin-right: 20px;
+}
+
+.category {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    cursor: pointer;
+}
+
+.categoryText {
+    white-space: nowrap;
+    position: relative;
+}
+
+span {
+    font-size: 0.6rem;
+    color: red;
+    position: absolute;
+    top: -8px;
+    right: -30px;
+}
+
+.item-search {
+    /* width: 30%; */
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    background-color: #F5F5F6;
+}
+
+.search-icon-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+}
+
+.search-input {
+    width: 100%;
+    padding-block: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #F5F5F6;
+    padding-left: 8px;
+}
+
+.right-container {
+    display: flex;
+    justify-content: end;
+    column-gap: 20px;
+    /* right: 0; */
+    margin-left: 8px;
+    /* flex-grow: 1; */
+    /* background-color: orange; */
+}
+
+.icon-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon {
+    font-size: 1.3rem;
+}
+
+.icon-text {
+    font-size: 0.8rem;
+    font-weight: 600;
+}

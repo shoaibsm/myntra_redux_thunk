@@ -1,0 +1,45 @@
+.SingleProduct {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: orange;
+}
+
+.productCard {
+    height: 300px;
+}
+
+.imageContainer {
+    height: 70%;
+}
+
+.productImg {
+    width: 100%;
+}
+
+.limited-text {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.productDetails {
+    height: 30%;
+}
+
+.productTitle {
+    font-weight: 700;
+    font-size: 0.8rem;
+    padding: 16px 0 0 8px;
+}
+
+.productDesc {
+    font-size: 0.8rem;
+    padding: 4px 0 0 8px;
+}
+
+.productPrice {
+    font-size: 0.8rem;
+    font-weight: 700;
+    padding: 4px 0 0 8px;
+}
