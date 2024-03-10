@@ -11,7 +11,11 @@ function SingleProduct({ product }) {
             <div className="productCard">
                 <div className="imageContainer">
 
-                    <img className='productImg' src={product.images && product.images.length > 0 ? JSON.parse(product.images)[0] : ''} alt={product.title} />
+                    {/* <img className='productImg' src={product.images && product.images.length > 0 ? JSON.parse(product.images)[0] : ''} alt={product.title} /> */}
+
+                    <img className='productImg' src={product.images[0]} alt={product.title} />
+
+
 
                 </div>
                 <div className="productDetails">
