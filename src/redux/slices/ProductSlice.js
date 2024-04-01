@@ -6,8 +6,6 @@ export const fetchData = createAsyncThunk('products/fetch', async () => {
     return await response.json();
 })
 
-//  create thunk object
-
 const productSlice = createSlice({
     name: 'productSlice',
     initialState: {

@@ -1,7 +1,5 @@
 .ProductFilter {
     width: 20%;
-    /* background-color: aqua; */
-    /* margin-inline: auto; */
     padding-left: 16px;
 }
 
@@ -23,7 +21,6 @@
     height: 10px;
     border-radius: 50%;
     border: 1px solid rgba(0, 0, 0, 0.3);
-    /* background: red; */
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
