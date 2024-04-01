@@ -3,8 +3,7 @@ import './ProductList.css'
 import { useDispatch, useSelector } from 'react-redux';
 import { fetchData } from '../redux/slices/ProductSlice';
 import SingleProduct from '../components/SingleProduct';
-import { Alert, Flex, Spin } from 'antd';
-<Alert message="Error" type="error" showIcon />
+import { Alert, Spin } from 'antd';
 
 function ProductList() {
 
@@ -36,7 +35,7 @@ function ProductList() {
 
     if (status === 'faild') {
         return (
-            <div>
+            <div className='errorMsg'>
                 <Alert style={{ width: '300px', marginInline: 'auto', marginTop: '100px', textAlign: 'center' }}
                     message="Error"
                     description="Somthing went wrong...!"
